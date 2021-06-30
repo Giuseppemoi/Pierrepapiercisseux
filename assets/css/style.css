@@ -1,0 +1,32 @@
+#container {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: auto;
+}
+
+#container .result {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#container .choix {
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+#container .choix .img {
+  width: 100px;
+}
+/*# sourceMappingURL=style.css.map */
